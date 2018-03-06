@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+        	<title>Create User</title>
+		<center><h1> Add User </h1></center>
+		<meta charset="utf-8"> 
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	</head>
+
+	<body>
+		
+		<center><form id="q1" method="POST" action="CreateUser.php">
+			<p>Please enter the new user's name: </p>
+ 			<input type="text" name="username">
+			
+		
+			<input type="submit" class="button" name="submit" value="Submit!" />
+		</form></center>
+
+		<?php include 'CreateUser.php';?>
+
+	</body>
+</html>

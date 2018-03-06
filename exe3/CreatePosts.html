@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+        	<title>Create Post</title>
+		<center><h1> Write a Post </h1></center>
+		<meta charset="utf-8"> 
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	</head>
+
+	<body>
+		
+		<center><form id="q1" method="POST" action="CreatePosts.php">
+			<p>Username:
+ 			<input type="text" name="username"><br> </p>
+			
+			<p>Your new post: </p>
+			
+			<textarea name="my_post" style="min-width:420px"></textarea>
+			<br><br>
+		
+			<input type="submit" class="button" name="submit" value="Submit!" />
+		</form></center>
+
+		<?php include 'CreatePosts.php';?>
+
+	</body>
+</html>
